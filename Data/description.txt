@@ -1,0 +1,34 @@
+
+Behavorial Data: 
+
+"Submitted docs on time, checks verified"
+"Submitted docs after 3 reminders"
+"Changed phone number 3x during claim"
+"Refused to provide accident photos"
+"Files claim every Friday night"
+"Aggressive during adjuster call"
+"Multiple policy address changes"
+"Missed 2 scheduled inspections"
+"Claims filed within 30 days of policy start"
+"Inconsistent accident descriptions"
+"Delayed reporting by 14 days"
+"No response to document requests"
+"Previous claims with same service provider"
+"Changed bank details twice"
+"Reluctant to provide witness info"
+
+
+Risk Profile:
+"High"
+"Above Average"
+"Average"
+"Low"
+
+
+Claim Approval:
+1: Approved
+0: Denied
+
+
+
+

@@ -1,0 +1,24 @@
+MEDICARE CLAIMS DATA
+
+
+BENEFICIARY SUMMARY
+- There are some challenges identifying the target variables for this
+- Claims are on an aggregated level (not necessarily case by case)
+- Target Variable can be engineered as a denial if outpatient disbursement amounts are all zero
+- But again its a patients annual summary
+
+CMS Inpatient Claims/ Outpatient claims
+- Claim payment amount - if 0 we can classify it as denied.
+- (66672, 81) observations
+- Claims payment less than 0 and the negatives could mean 
+    - Claim Adjustment
+    - Claim Denial or Rejection ***
+    - Claim Adjustment
+
+
+ML - Model vs LLM:
+- OpenAI API results are a random guess, mutliple tweaks to one test observations give different results
+- Used randomforestclassifier to train the data set for prediction
+- The next goal is to tune the xgboost 
+- Transformer based networks like TabNet FT-Transformer
+- Convert your tabular data into a text-based format for fine tuning
